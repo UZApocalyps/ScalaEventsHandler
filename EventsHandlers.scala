@@ -20,6 +20,12 @@ object EventsHandlers{
       }
     }
   }
+
+  /**
+    * This method is used to add a listener to a text field
+    * @param textField
+    * @param callback
+    */
   def onChange(textField:TextField, callback: (TextField)=> Unit) =
   {
     listenTo(textField);
