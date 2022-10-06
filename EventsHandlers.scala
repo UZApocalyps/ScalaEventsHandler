@@ -4,6 +4,12 @@ import scala.swing.{AbstractButton, Action, Button, Component, TextField}
 import scala.swing.MenuBar.NoMenuBar.{listenTo, reactions}
 import scala.swing.event.{ButtonClicked, Event, Key, KeyEvent, KeyPressed, KeyTyped, MouseEvent, ValueChanged}
 
+/**
+ * Created by Gabriel Rossier.
+ * User: gabrielrossier
+ * Date: 06/10/2022
+ */
+
 object EventsHandlers{
   /**
     * This method is used to add a listener to a button
